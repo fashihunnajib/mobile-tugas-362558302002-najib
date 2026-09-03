@@ -12,11 +12,11 @@ Panduan interaktif lengkap: [Portal Codelabs TRPL Poliwangi](https://codelabs-po
 > **Wajib Mengganti Data di Bawah Ini!**  
 > Autograding CI/CD akan memeriksa apakah nilai *placeholder* di bawah ini telah diganti dengan Nama dan NIM Anda yang sebenarnya. Jika belum diganti, pengujian `verify_documentation_test.dart` akan gagal.
 
-| Informasi | Data Mahasiswa |
-|---|---|
-| **Nama Lengkap** | Mahasiswa TRPL Poliwangi *(Ganti dengan Nama Lengkap Anda)* |
-| **NIM** | 362458302000 *(Ganti dengan NIM Asli Anda)* |
-| **Kelas / Angkatan** | TRPL 5A / 2024 |
+| Informasi | Data Mahasiswa      |
+|---|---------------------|
+| **Nama Lengkap** | Ahmad Fashihun Najib |
+| **NIM** | 362558302002 |
+| **Kelas / Angkatan** | TRPL 2E / 2025      |
 | **Dosen Pengampu** | Sepyan Purnama Kristanto, M.Kom. |
 
 ---
