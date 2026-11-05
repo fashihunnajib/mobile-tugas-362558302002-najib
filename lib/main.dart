@@ -3,6 +3,8 @@ import 'modul_01/profile_screen.dart';
 import 'modul_02/academic_dashboard_screen.dart';
 import 'modul_03/modul_03_app.dart';
 import 'modul_04/modul_04_app.dart';
+import 'modul_05/modul_05_app.dart';
+import 'modul_06/modul_06_app.dart';
 
 void main() {
   runApp(const PoliwangiStarterApp());
@@ -261,14 +263,14 @@ class _ModuleLauncherScreenState extends State<ModuleLauncherScreen> {
             moduleNumber: 5,
             title: 'Local Storage & Offline-First Strategy',
             subtitle: 'SharedPreferences, Hive / SQLite, Secure Storage',
-            builder: () => const _PlaceholderScreen(moduleNumber: 5, title: 'Local Storage & Offline-First Strategy'),
+            builder: () => const Modul05App(),
           ),
           const SizedBox(height: 10),
           _buildModuleCard(
             moduleNumber: 6,
             title: 'Authentication, Security & FCM',
             subtitle: 'JWT lifecycle, token refresh, dan push notification',
-            builder: () => const _PlaceholderScreen(moduleNumber: 6, title: 'Authentication, Security & FCM'),
+            builder: () => const Modul06App(),
           ),
           const SizedBox(height: 10),
           _buildModuleCard(
